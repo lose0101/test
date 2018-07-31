@@ -1,8 +1,8 @@
- """
-        撤单
+r"""Sends a POST request. Returns :class:`Response` object.
 
-        :param orderdate: 订单日期，如：20180727
-        :param ordersno: 订单流水号，如：644245
-        :param prt: 打印，True or False
-        :return: True or False
+        :param url: URL for the new :class:`Request` object.
+        :param data: (optional) Dictionary, bytes, or file-like object to send in the body of the :class:`Request`.
+        :param json: (optional) json to send in the body of the :class:`Request`.
+        :param \*\*kwargs: Optional arguments that ``request`` takes.
+        :rtype: requests.Response
         """
